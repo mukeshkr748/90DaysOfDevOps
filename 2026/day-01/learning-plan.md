@@ -19,5 +19,31 @@ In the next 90 days, I want to improve my understanding of Linux, Git, Docker, K
 - I will share my learning journey on LinkedIn.
 - I will revise topics every week to improve my understanding.
 
+Current Level
+
+Electrical Engineer & Fresher in DevOps/Cloud Engineering
+
+My 3 Goals for the Next 90 Days
+
+Build strong fundamentals in Linux, Git, and Networking
+Learn Docker, CI/CD, and Cloud basics through hands-on practice
+Create projects and share my learning journey on GitHub & LinkedIn
+
+3 Core DevOps Skills I Want to Learn
+
+Linux & Shell Scripting
+Docker & Kubernetes Basics
+AWS Cloud & CI/CD Pipelines
+
+Weekly Time Budget
+
+2–3 hours daily on weekdays
+5–6 hours on weekends for practice and projects
+Total learning time: Around 20 hours per week
+
+My Focus
+
+Stay consistent, practice daily, build real-world projects, and grow step by step in DevOps & Cloud Engineering 🚀
+
 ## Final Note
 This journey is important for my career growth. I know consistency is the key, so I will try to give my best every single day during these 90 days.
