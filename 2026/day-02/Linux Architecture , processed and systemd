@@ -1,0 +1,24 @@
+## What I Learned Today
+
+Today I learned the basics of Linux architecture and process management.
+
+### Linux Core Components
+
+- Kernel → Controls hardware and system resources
+- User Space → Where applications run
+- systemd → Manages services and system startup
+
+### Process Management
+
+A process is a running program in Linux.
+
+Some common process states:
+
+- Running
+- Sleeping
+- Stopped
+- Zombie
+
+### Useful systemd Commands
+
+```bash
