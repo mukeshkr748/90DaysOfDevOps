@@ -1,0 +1,37 @@
+# Day 03 - Linux Commands Practice
+
+Today I practiced basic Linux commands on Playground platform.
+
+## Commands I Learned
+
+- pwd → shows current folder
+- ls → shows files and folders
+- cd → changes folder
+- mkdir → creates new folder
+- touch → creates new file
+- cp → copies file
+- mv → moves file
+- rm → deletes file
+
+## Process Commands
+
+- ps → shows running processes
+- top → shows system processes
+
+## Networking Commands
+
+- ping → checks internet connection
+- ip addr → shows IP address
+- curl → checks website response
+
+## What I Learned
+
+Today I learned how to use basic Linux commands for
+
+- File management
+- Process checking
+- Network troubleshooting
+
+This practice improved my Linux basics and terminal confidence.
+
+#90DaysOfDevOps
