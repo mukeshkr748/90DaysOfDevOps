@@ -1,0 +1,48 @@
+# Day 04 - Linux Practice
+
+Today I practiced Linux process, service, and log commands on Playground
+
+# Process Checks
+
+## 1 ps
+Shows running processes.
+
+```bash
+ps
+
+2. top
+Shows live system processes.
+Bash
+top
+Service Checks
+
+3. systemctl status ssh
+Checks SSH service status.
+Bash
+systemctl status ssh
+
+4. systemctl list-units --type=service
+Shows active services.
+Bash
+systemctl list-units --type=service
+Log Checks
+
+5. journalctl -u ssh
+Shows logs of SSH service.
+Bash
+journalctl -u ssh
+
+6. tail -n 20 /var/log/syslog
+Shows last 20 log lines.
+Bash
+tail -n 20 /var/log/syslog
+
+Mini Troubleshooting
+
+Checked running processes using ps and top
+Verified SSH service status
+Viewed service logs using journalctl
+Read system logs using tail
+Today’s practice improved my Linux basics and troubleshooting skills.
+
+#90DaysOfDevOps
