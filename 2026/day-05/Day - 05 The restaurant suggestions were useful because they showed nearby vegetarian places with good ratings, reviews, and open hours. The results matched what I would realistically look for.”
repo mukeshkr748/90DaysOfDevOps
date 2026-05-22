@@ -1,0 +1,77 @@
+Day 05 - Linux Troubleshooting Runbook
+
+## Target Service
+SSH Service
+
+
+# Environment Check
+
+## 1. uname -a
+Shows system information.
+
+```bash
+uname -a
+
+2. cat /etc/os-release
+Shows Linux version details.
+Bash
+cat /etc/os-release
+File System Check
+
+3. mkdir /tmp/runbook-demo
+Creates test folder.
+Bash
+mkdir /tmp/runbook-demo
+
+4. cp /etc/hosts /tmp/runbook-demo/hosts-copy
+Copies file for practice.
+Bash
+cp /etc/hosts /tmp/runbook-demo/hosts-copy
+ls -l /tmp/runbook-demo
+Observation: Folder and file created successfully.
+CPU & Memory Check
+
+5. top
+Checks CPU and memory usage.
+Bash
+top
+Observation: CPU and memory usage looked normal.
+
+6. free -h
+Shows RAM usage.
+Bash
+free -h
+Observation: System had available free memory.
+Disk Check
+
+7. df -h
+Shows disk space usage.
+Bash
+df -h
+Observation: Disk space was sufficient.
+Network Check
+
+8. ss -tulpn
+Shows listening ports and services.
+Bash
+ss -tulpn
+Observation: SSH service port was active.
+Log Check
+
+9. journalctl -u ssh -n 20
+Shows SSH service logs.
+Bash
+journalctl -u ssh -n 20
+Observation: No recent errors found in logs.
+
+Quick Findings
+
+System resources were stable
+SSH service was running properly
+No major errors found in logs
+If This Worsens
+Restart SSH service
+Check detailed logs
+Monitor CPU and memory continuously
+
+#90DaysOfDevOps
