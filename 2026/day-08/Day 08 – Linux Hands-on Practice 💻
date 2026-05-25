@@ -1,0 +1,28 @@
+Day 08 – Linux Hands-on Practice 💻
+
+Today I completed beginner-level Linux practice on AWS EC2
+
+🔹 Connected to EC2 using SSH
+🔹 Practiced Linux basic commands
+🔹 Created folders and files
+🔹 Learned file management commands:
+
+  - mkdir
+   - touch
+    - cp
+     - mv
+      - rm
+
+🔹 Installed package using:
+sudo apt install tree
+
+🔹 Checked system resources:
+
+ - free -m
+   - df -h
+
+🔹 Practiced basic permissions with chmod
+
+This hands-on practice helped me become more comfortable with the Linux terminal and cloud environment.
+
+#DevOps #Linux #AWS #EC2 #GitHub #Cloud #BeginnerJourney
