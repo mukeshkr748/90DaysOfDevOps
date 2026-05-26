@@ -70,4 +70,4 @@ sudo chmod 775 /opt/team-workspace
 What I Learned
 How to create users in Linux
 How to create groups and add users
-How to set permissions for folders
+How to set permissions of folders
