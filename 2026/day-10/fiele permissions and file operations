@@ -1,0 +1,23 @@
+Day 10 – File Permissions & File Operations
+Completed beginner Linux file permission practice.
+
+Topics i Practiced
+touch
+cat
+head
+tail
+chmod
+shell script execution
+
+Hands-on Tasks
+Created and edited files
+Read file contents
+Changed file permissions
+Executed shell scripts
+Tested read-only permissions
+
+Platforms Used
+
+Linux Playground
+AWS EC2
+Building Linux fundamentals through practical hands-on exercises.
