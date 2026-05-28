@@ -1,0 +1,23 @@
+Completed Linux ownership management hands-on practice.
+
+Topics Practiced
+
+chown
+chgrp
+recursive ownership
+user/group ownership
+directory permissions
+
+Hands-on Tasks
+
+  Changed file owners
+  Changed file groups
+   Managed shared directories
+   Applied recursive ownership
+    Verified ownership using ls -l
+
+Platforms Used
+
+Linux Playground
+AWS EC2
+Learning practical Linux administration step by step.
