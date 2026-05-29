@@ -1,39 +1,31 @@
-🚀 Day 12 – Linux Revision & Fundamentals Review
+# Day 12 – Linux Revision Practice
 
-Completed Linux revision practice from Day 01 to Day 11
+## Task
 
-✅ Revisited Linux commands
-✅ Reviewed process & service management
-✅ Practiced logs and troubleshooting
-✅ Revised file permissions and ownership
-✅ Repeated user/group management tasks
-✅ Improved Linux command confidence
+Completed revision and re-practice of Linux fundamentals from Day 01 to Day 11.
 
-Small daily hands-on practice is helping me build strong Linux and DevOps fundamentals.
+## Revised Topics
 
-MOST IMPORTANT THINGS l  am LEARNED
+- Linux commands
+- Process management
+- Services and logs
+- Permissions
+- Ownership
+- Users and groups
 
-Linux Basics
-files
-folders
-commands
+## Practice Commands
+```bash
+ps
+top
+systemctl
+journalctl
+chmod
+chown
+ls -l
 
-Troubleshooting
-logs
-CPU
-RAM
-services
+Platforms Used
+Linux Playground
+AWS EC2
 
-Cloud
-EC2
-SSH
-nginx
-
-Linux Administration
-users
-groups
-permissions
-ownership
-
-
-#Linux #DevOps #Revision #AWS #Beginner #CloudComputing
+Outcome
+Focused on improving Linux troubleshooting and command-line confidence through revision and repeated hands-on practice.
