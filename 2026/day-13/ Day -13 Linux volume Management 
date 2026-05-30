@@ -1,0 +1,17 @@
+🚀 Completed Day 13 – Linux Volume Management (LVM)
+
+In this practice, I learned how to:
+Create Physical Volumes (PV)
+Create Volume Groups (VG)
+Create Logical Volumes (LV)
+Format and mount storage
+Extend logical volumes
+Resize filesystems
+
+LVM makes storage management much more flexible and scalable compared to traditional partitions.
+
+📚 Key Concepts: PV → VG → LV
+
+Continuing my Linux and DevOps learning journey one day at a time.
+
+#Linux #LVM #DevOps #SysAdmin #LearningInPublic #GitHubJourney #OpenSource #CloudEngineering #DevOpsLearning #LinuxAdmin
