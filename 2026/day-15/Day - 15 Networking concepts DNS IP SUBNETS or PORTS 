@@ -1,0 +1,27 @@
+Day 15 – Networking Concepts: DNS, IP, Subnets & Ports
+
+Topics Covered
+
+DNS Resolution Process
+IPv4 Addressing
+Public vs Private IPs
+CIDR & Subnetting Basics
+Common Network Ports
+Common Ports
+Port
+Service
+
+SSH -22
+DNS - 53
+HTTP - 80
+HTTPS -443
+MySQL-3306
+Redis - 6379
+MongoDB- 27017
+
+Key Learning
+
+DNS, IP addressing, subnetting, and ports are the building blocks of networking and essential skills for every DevOps Engineer.
+
+#90DaysOfDevOps #Networking #DevOps #Linux #DNS #CIDR #LearningByDoing
+
