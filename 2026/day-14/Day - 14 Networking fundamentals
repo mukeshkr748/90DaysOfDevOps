@@ -1,0 +1,19 @@
+Day 14 – Networking Fundamentals
+
+Topics Covered
+
+OSI vs TCP/IP Models
+Connectivity Testing
+Network Troubleshooting Commands
+Basic Network Diagnostics
+
+Commands Practiced
+Bash
+ping
+traceroute
+curl
+dig
+ss -tulpn
+
+Key Learning
+Understanding how devices communicate over networks and how to troubleshoot connectivity issues.
