@@ -1,0 +1,45 @@
+Day 16 – Shell Scripting Basics
+
+What I Learned
+
+Understanding Shebang (#!/bin/bash)
+Using echo for output
+Working with Variables
+Command Substitution using $(command)
+Taking User Input with read
+Passing Arguments to Scripts ($1, $2, $@)
+Running Bash Scripts
+
+Hands-On Tasks Completed
+01_hello.sh
+Bash
+echo "Hello Dosto!"
+
+02_variables.sh
+Bash
+name="Mukesh"
+echo $name
+echo $(date)
+
+03_arguments.sh
+Bash
+bash 03_arguments.sh Mukesh DevOps Hanumangarh
+
+04_user_input.sh
+Bash
+read name
+echo "Hello $name"
+
+Key Commands Practiced
+
+Bash
+bash script.sh
+cat filename.sh
+nano filename.sh
+date
+whoami
+Key Takeaway
+
+Shell scripting is the foundation of DevOps automation. Learning how to work with variables, inputs, and arguments helps automate system administration tasks efficiently.
+
+#90DaysOfDevOps #ShellScripting #Linux #DevOps #Bash #AWS #Automation
