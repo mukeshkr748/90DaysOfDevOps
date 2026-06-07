@@ -1,0 +1,32 @@
+Day 19 - Shell Scripting Project: Log Rotation, Backup & Crontab
+
+What I Learned
+
+Automating repetitive tasks using shell scripts
+Creating log rotation scripts
+Taking server backups automatically
+Scheduling tasks using crontab
+Managing disk space efficiently
+
+Tasks Completed
+
+Created a log rotation script
+Created a backup script
+Configured cron jobs for automation
+Tested backup and rotation processes
+
+Key Commands Practiced
+
+tar -czvf backup.tar.gz folder/
+crontab -e
+chmod +x script.sh
+
+Challenges Faced
+
+Understanding cron scheduling syntax
+Handling "No space left on device" errors
+Verifying automated script execution
+
+Outcome
+
+Learned how Linux administrators automate maintenance tasks and manage server resources efficiently.
