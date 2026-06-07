@@ -1,0 +1,128 @@
+Day 18 – Shell Scripting: Functions & Intermediate Concepts
+
+Objective
+
+Learned how to write reusable shell scripts using functions, local variables, return values, and strict mode.
+
+
+
+Task 1: Basic Functions
+
+
+functions.sh
+
+#!/bin/bash
+
+greet() {
+    echo "Hello, $1!"
+}
+
+add() {
+    echo "Sum = $(($1 + $2))"
+}
+
+greet "Mukesh"
+add 10 20
+
+Output
+
+Hello, Mukesh!
+Sum = 30
+
+
+
+Task 2: Disk and Memory Check
+
+
+disk_check.sh
+
+#!/bin/bash
+
+check_disk() {
+    echo "===== Disk Usage ====="
+    df -h /
+}
+
+check_memory() {
+    echo "===== Memory Usage ====="
+    free -h
+}
+
+check_disk
+check_memory
+
+Output
+
+Disk usage and memory information displayed successfully.
+
+
+
+Task 3: Strict Mode
+
+
+strict_demo.sh
+
+#!/bin/bash
+set -euo pipefail
+
+Understanding Strict Mode
+
+
+- set -e → Exit immediately if a command fails.
+- set -u → Exit when using an undefined variable.
+- set -o pipefail → Return failure if any command in a pipeline fails.
+
+Benefits
+
+- Safer scripts
+- Easier debugging
+- Production-ready scripting
+
+
+
+Task 4: Local Variables
+
+
+local_demo.sh
+
+#!/bin/bash
+
+demo() {
+    local name="Mukesh"
+    echo $name
+}
+
+demo
+
+Observation
+
+Local variables are accessible only inside the function.
+
+
+
+Task 5: System Information Reporter
+
+
+Features
+
+- Hostname and OS Information
+- Uptime Information
+- Disk Usage
+- Memory Usage
+- Top CPU Processes
+
+system_info.sh
+
+Uses functions and strict mode to generate a clean system report.
+
+
+
+Key Learnings
+
+1. Functions help make scripts reusable and modular.
+2. Local variables prevent unwanted changes outside functions.
+3. Strict mode (set -euo pipefail) improves script reliability and error handling.
+
+Conclusion
+
+Day 18 helped me understand how professional shell scripts are structured using functions, local variables, and strict mode for better maintainability and reliability.
