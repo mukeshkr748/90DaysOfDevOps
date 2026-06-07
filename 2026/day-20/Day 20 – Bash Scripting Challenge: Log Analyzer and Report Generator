@@ -1,0 +1,27 @@
+Day 20 - Bash Scripting Challenge: Log Analyzer and Report Generator
+
+What I Learned
+
+Reading log files using shell scripts
+Filtering data with grep
+Counting events and errors
+Generating summary reports
+Automating log analysis
+
+Tasks Completed
+
+Parsed log files
+Extracted error messages
+Counted occurrences of events
+Generated daily summary reports
+
+Commands Used
+grep
+awk
+sort
+uniq
+wc
+
+Outcome
+
+Built a practical log analyzer script that simulates real-world system administration tasks.
