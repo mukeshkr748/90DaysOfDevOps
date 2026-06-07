@@ -1,0 +1,59 @@
+Day 17 – Shell Scripting: Loops, Arguments & Error Handling
+
+Objective
+
+Learn how to automate tasks using shell scripts with loops, arguments, package installation, and error handling.
+
+Scripts Created
+
+1. for_loop.sh
+
+
+Prints a list of fruits using a for loop.
+
+2. count.sh
+
+
+Prints numbers from 1 to 10 using a for loop.
+
+3. countdown.sh
+
+Accepts user input and counts down to zero using a while loop.
+
+4. greet.sh
+
+Accepts a name as a command-line argument and displays a greeting.
+
+5. args_demo.sh
+
+Demonstrates-
+
+-  Script name ($0)
+ - Total arguments ($#)
+  - All arguments ($@)
+
+6. install_packages.sh
+
+-  Checks root access
+-  Verifies package installation
+- Installs missing packages automatically
+
+7. safe_script.sh
+
+  - Uses set -e
+    - Demonstrates basic error handling
+
+8. table.sh
+
+Generates a multiplication table based on user input.
+
+Key Learnings
+
+
+1. Loops help automate repetitive tasks.
+2. Command-line arguments make scripts reusable.
+3. Error handling improves script reliability and safety.
+
+Outcome
+
+Successfully created and executed multiple shell scripts for automation and Linux administration tasks.
