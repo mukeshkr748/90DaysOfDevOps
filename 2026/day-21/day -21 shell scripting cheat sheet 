@@ -1,0 +1,74 @@
+Day 21 – Shell Scripting Cheat Sheet
+
+Objective
+
+Create a quick-reference cheat sheet covering the Shell Scripting concepts learned during Days 16–20.
+
+Topics Covered
+
+Basics
+
+- Shebang ("#!/bin/bash")
+- Variables
+- User Input
+- Comments
+
+Control Statements
+
+- If-Else
+- Case Statements
+
+Loops
+
+- For Loop
+- While Loop
+
+Functions
+
+- Creating and Calling Functions
+
+Command Line Arguments
+
+- "$1", "$2"
+- "$#"
+- "$@"
+- "$?"
+
+File Operations
+
+- File Checks ("-f", "-d")
+- Script Permissions ("chmod +x")
+
+Text Processing Commands
+
+- grep
+- awk
+- sed
+- sort
+- uniq
+- cut
+
+Error Handling & Debugging
+
+- "set -e"
+- "set -u"
+- "set -o pipefail"
+- "set -x"
+
+Automation
+
+- Cron Jobs
+- Backup Commands
+- Log Analysis
+
+Key Learning
+
+This cheat sheet serves as a quick revision guide for Shell Scripting fundamentals. It summarizes the concepts and commands learned during Days 16–20 and can be used as a reference while writing Bash scripts and performing Linux administration tasks.
+
+Outcome
+
+- Improved understanding of Shell Scripting fundamentals.
+- Created a reusable reference document.
+- Consolidated learning from previous Shell Scripting exercises and projects.
+
+#90DaysOfDevOps #ShellScripting #Linux #Bash #DevOps
