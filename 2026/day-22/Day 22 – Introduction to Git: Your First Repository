@@ -1,0 +1,47 @@
+Day 22 - Introduction to Git: My First Repository
+
+What I Learned
+
+Today I started my Git journey and learned the fundamentals of version control.
+
+Topics Covered
+
+ - What is Git and why it is important
+- Git configuration (username and email)
+- Creating a Git repository
+ - Understanding the ".git" directory
+
+- Working Directory, Staging Area, and   Repository
+ - Git workflow
+- Staging and committing changes
+ - Viewing commit history
+
+Commands Practiced
+
+git --version
+git config --global user.name
+git config --global user.email
+git config --list
+git init
+git status
+git add
+git commit
+git log
+git log --oneline
+git diff
+
+Key Learnings
+
+- "git add" moves changes to the staging area.
+- "git commit" saves changes permanently in Git history.
+- "git status" helps track the current state of the repository.
+- "git log" shows commit history.
+
+- The ".git" folder stores the entire repository history.
+
+Outcome
+
+- Created my first Git repository.
+- Built a Git commands reference file.
+- Created multiple commits with meaningful commit messages.
+- Learned the complete Git workflow from working directory to repository.
