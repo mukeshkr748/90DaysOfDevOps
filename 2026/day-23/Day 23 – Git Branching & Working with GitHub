@@ -1,5 +1,16 @@
-Completed Day 23 - Git Branching & Working with GitHub
 
+
+
+Day 23 - Git Branching & Working with GitHub
+
+Learned :
+
+- Git Branching
+- git switch & git checkout
+- Feature Branch Workflow
+- Push and Pull Operations
+- Fetch vs Pull
+- Clone vs Fork
 
  - Created and switched branches
   - Worked with feature branches
