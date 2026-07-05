@@ -1,0 +1,44 @@
+Day 24 – Advanced Git 🚀
+
+Today I learned some important Git concepts that are widely used in real projects.
+
+Topics Covered
+
+- Git Merge
+- Fast-Forward Merge
+- Merge Commit
+- Merge Conflict
+- Git Rebase
+- Squash Merge
+- Git Stash
+- Git Cherry-Pick
+
+What I Practiced
+
+✅ Created multiple branches
+
+✅ Merged branches using both Fast-Forward and Merge Commit
+
+✅ Created and resolved a Merge Conflict
+
+✅ Used Rebase to keep commit history clean
+
+✅ Learned the difference between Merge and Rebase
+
+✅ Practiced Squash Merge
+
+✅ Saved unfinished work using Git Stash and restored it later
+
+✅ Applied a specific commit using Git Cherry-Pick
+
+Key Learnings
+
+- Merge combines branches.
+- Rebase creates a cleaner commit history.
+- Squash Merge combines multiple commits into one.
+- Stash temporarily saves unfinished work.
+- Cherry-Pick copies a specific commit to another branch.
+
+Every day I am improving my Git and DevOps skills through hands-on practice. 💻
+
+#DevOps #Git #GitHub #Linux #LearningInPublic #100DaysOfDevOps #OpenToWork
