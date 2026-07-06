@@ -1,0 +1,26 @@
+🚀 Day 26/90 – GitHub CLI (gh) Basics
+
+Today I learned how to use GitHub CLI (gh) to manage GitHub directly from the terminal.
+
+What I practiced:
+
+✅ Installed GitHub CLI (gh) ✅ Logged into GitHub using gh auth login ✅ Created a new GitHub repository from the terminal ✅ Created and viewed GitHub Issues ✅ Closed an Issue using CLI ✅ Created a feature branch ✅ Pushed code to GitHub ✅ Learned why a Pull Request can fail when branches don't share a common history
+
+Key Commands:
+
+gh auth login
+gh repo create
+gh repo view
+gh issue create
+gh issue list
+gh issue close
+gh pr create
+
+What I learned:
+
+GitHub CLI helps developers perform GitHub tasks without opening the browser. It saves time and is very useful in DevOps automation.
+Every error taught me something new, and debugging those errors improved my understanding of Git and GitHub.
+
+#90DaysOfDevOps #GitHubCLI #GitHub #Git #DevOps #AWS #Linux #LearningInPublic #BeginnerJourney
+
+Repository: https://github.com/mukeshkr748/90DaysOfDevOps⁠�
