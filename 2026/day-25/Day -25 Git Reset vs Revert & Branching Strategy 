@@ -1,0 +1,444 @@
+Day 25 – Git Reset vs Revert & Branching Strategies
+
+Task 1: Git Reset — Hands-On
+
+Step 1: Create 3 commits
+
+touch reset.txt
+
+Commit A
+
+echo "Commit A" > reset.txt
+git add .
+git commit -m "Commit A"
+
+Commit B
+
+echo "Commit B" >> reset.txt
+git add .
+git commit -m "Commit B"
+
+Commit C
+
+echo "Commit C" >> reset.txt
+git add .
+git commit -m "Commit C"
+
+Create 3 commits
+
+touch reset.txt
+echo "Commit A" > reset.txt
+git add .
+git commit -m "Commit A"
+
+echo "Commit B" >> reset.txt
+git add .
+git commit -m "Commit B"
+
+echo "Commit C" >> reset.txt
+git add .
+git commit -m "Commit C"
+
+Check history:
+
+git log --oneline
+
+Example output:
+
+abc333 Commit C
+abc222 Commit B
+abc111 Commit A
+
+1. git reset --soft
+
+Run:
+
+git reset --soft HEAD~1
+
+Check:
+
+git log --oneline
+git status
+
+Observation:
+
+Commit C is removed from history.
+
+Changes are still in the staging area.
+
+git status shows Changes to be committed.
+
+Diagram
+
+Commit C ❌
+Changes still staged ✅
+
+When to use?
+
+Wrong commit message
+
+Want to combine or edit commits
+
+Removes the last commit
+
+Keeps changes staged
+
+Use it to fix a commit message or squash commits.
+
+2. git reset --mixed
+
+First re-commit:
+
+git commit -m "Commit C Again"
+
+Now run:
+
+Re-commit, then run:
+
+git reset --mixed HEAD~1
+
+Check:
+
+git status
+
+Observation:
+
+Commit removed.
+
+Changes are still in the file.
+
+Staging area is cleared.
+
+git status shows Changes not staged for commit.
+
+Diagram
+
+Commit C ❌
+Staging ❌
+File changes ✅
+
+When to use?
+
+Keep changes but decide later what to stage.
+
+Removes the last commit
+
+Keeps file changes
+
+Clears the staging area
+
+Use it when you want to edit and stage changes later.
+
+3. git reset --hard
+
+First re-commit:
+
+git add .
+git commit -m "Commit C Again"
+
+Now run:
+
+Re-commit, then run:
+
+git reset --hard HEAD~1
+
+Check:
+
+git status
+cat reset.txt
+
+Observation:
+
+Commit removed.
+
+Staging removed.
+
+Working directory changes removed.
+
+File goes back to previous state.
+
+Diagram
+
+Commit C ❌
+Staging ❌
+Working directory changes ❌
+
+When to use?
+
+Throw away local changes completely.
+
+Removes the last commit
+
+Clears staging
+
+Deletes working directory changes
+
+Use it to discard local changes completely.
+
+Difference Between --soft, --mixed, and --hard
+
+
+Option
+
+Commit
+
+Staging Area
+
+Working Directory
+
+
+1 soft
+
+Removed
+
+Kept
+
+Kept
+
+
+2 mixed
+
+Removed
+
+Cleared
+
+Kept
+
+
+3 hard
+
+Removed
+
+Cleared
+
+Removed
+
+
+Which One Is Destructive?
+
+git reset --hard is destructive because it deletes local changes from the working directory.
+
+git reset --hard is destructive because it deletes local changes.
+
+When Would You Use Each One?
+
+-soft
+
+Fix commit message
+
+Squash commits
+
+-mixed
+
+Keep file changes
+
+Re-stage files selectively
+
+-hard
+
+Discard local work
+
+Return to a clean state
+
+--soft: fix commit messages, squash commits
+
+--mixed: keep changes but stage later
+
+--hard: discard local work
+
+Should You Use git reset on Pushed Commits?
+
+Generally No.
+
+Reason:
+
+git reset rewrites history.
+
+Other developers may have already pulled those commits.
+
+It can create conflicts and confusion.
+
+For shared branches, use git revert instead.
+
+Generally no.
+
+git reset rewrites history
+
+It can break shared branches
+
+Use git revert instead for pushed commits.
+
+
+TASK 2: GIT REVERT— HANDS-ON
+
+Create 3 commits
+
+touch revert.txt
+
+echo "Commit X" > revert.txt
+git add .
+git commit -m "Commit X"
+
+echo "Commit Y" >> revert.txt
+git add .
+git commit -m "Commit Y"
+
+echo "Commit Z" >> revert.txt
+git add .
+git commit -m "Commit Z"
+
+Check history:
+
+git log --oneline
+
+Copy the commit ID of Commit Y and run:
+
+git revert <commit-id>
+
+Example:
+
+git revert a1b2c3d
+
+Check history again:
+
+git log --oneline
+
+Observation
+
+- Git creates a new commit that reverses Commit Y.
+- Commit Y is still present in history.
+- History is not rewritten.
+
+
+
+Git Reset vs Git Revert
+
+Feature| git reset| git revert
+What it does| Removes commit| Creates a new commit to undo changes
+Removes commit history| Yes| No
+Safe for pushed/shared branches| No| Yes
+Best used for| Local commits| Shared or pushed commits
+
+-
+
+Why is Revert Safer?
+
+- Does not rewrite Git history.
+- Safe for team projects.
+- Recommended for "main" or shared branches.
+
+-
+
+Git Reflog (Safety Net)
+
+git reflog
+
+Shows all recent Git actions, even after a hard reset.
+
+Recover a lost commit:
+
+git reset --hard HEAD@{1}
+
+-
+
+TASK 3: BRANCHING STRATEGIES 
+
+
+1. GitFlow
+
+Flow:
+
+main
+ │
+develop
+ ├── feature
+ ├── release
+ └── hotfix
+
+Used for: Large teams with planned releases.
+
+Pros
+
+- Organized
+- Stable releases
+
+Cons
+
+- More branches
+- More complex
+
+-
+
+2. GitHub Flow
+
+Flow:
+
+main
+ │
+feature branch
+ │
+Pull Request
+ │
+Merge to main
+
+Used for: Startups and small teams.
+
+Pros
+
+- Simple
+- Fast deployment
+
+Cons
+
+- Not ideal for long release cycles
+
+-
+
+
+3. Trunk-Based Development
+
+Flow:
+
+main
+ │
+Small Branch
+ │
+Quick Merge
+
+Used for: Continuous Integration and DevOps teams.
+
+Pros
+
+- Fast development
+- Frequent releases
+
+Cons
+
+- Requires good testing
+
+---
+
+Answers
+
+Q. Which strategy is best for a startup shipping fast?
+
+Answer: GitHub Flow
+
+Q. Which strategy is best for a large team with scheduled releases?
+
+Answer: GitFlow
+
+Q. Which strategy is used by Kubernetes?
+
+Answer: GitHub Flow (feature branches + Pull Requests)
+
+-
+
+Key Takeaways
+
+- git reset → Removes commits (best for local work).
+- git revert → Safely undoes commits (best for shared branches).
+- git reflog → Recover lost commits.
+- GitHub Flow → Simple and fast.
+- GitFlow → Best for large projects.
+- Trunk-Based Development → Best for CI/CD and frequent releases.
