@@ -1,0 +1,61 @@
+Git Commands (Day 22–25)
+
+Setup
+
+git config --global user.name "Mukesh"
+git config --global user.email "ermuku748@gmail.com"
+
+git init
+git clone <repository-url>
+
+Basic Workflow
+
+git status
+git add .
+git commit -m "Commit message"
+git log --oneline
+git diff
+
+Branching
+
+git branch
+git branch feature
+git switch feature
+git switch main
+git checkout -b feature
+
+Remote Repository
+
+git remote -v
+git push origin main
+git pull origin main
+git fetch
+
+Merge & Rebase
+
+git merge feature
+git rebase main
+
+Stash
+
+git stash
+git stash list
+git stash pop
+
+Cherry Pick
+
+git cherry-pick <commit-id>
+
+Reset
+
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+
+Revert
+
+git revert <commit-id>
+
+Reflog
+
+git reflog
