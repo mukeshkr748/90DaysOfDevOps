@@ -1,0 +1,41 @@
+Day 29 – Introduction to Docker
+📚 Topics Covered
+
+What is Docker?
+Why Containers are Needed
+Containers vs Virtual Machines
+Docker Architecture
+Docker Client
+Docker Daemon
+Docker Images
+Docker Containers
+Docker Hub
+
+🛠 Hands-on Practice
+
+Installed Docker on Ubuntu EC2
+Verified Docker installation
+Ran hello-world container
+Ran an Nginx container
+Accessed Nginx using EC2 Public IP
+Explored Ubuntu container in interactive mode
+Listed running and stopped containers
+Stopped and removed containers
+Used detached mode (-d)
+Used interactive mode (-it)
+Used custom container names (--name)
+Used port mapping (-p)
+Viewed container logs
+Executed commands inside a running container
+
+🧠 Key Learnings
+Difference between Containers and Virtual Machines
+Docker Images vs Containers
+Docker workflow and architecture
+Basic Docker commands for container management
+
+📸 Output
+Docker installed successfully
+Hello World container executed
+Nginx web server deployed successfully
+Ubuntu container explored interactively
