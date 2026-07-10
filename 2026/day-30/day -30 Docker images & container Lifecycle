@@ -1,0 +1,125 @@
+# Day 30 – Docker Images & Container Lifecycle
+
+## Objective
+Learn how Docker images and containers work, understand image layers, and practice the complete container lifecycle.
+
+## Task 1: Docker Images
+
+### Images Pulled
+- nginx
+- ubuntu
+- alpine
+
+### List Images
+
+bash
+docker images
+
+### Observation
+- nginx image downloaded successfully.
+- ubuntu image is larger because it contains more packages and utilities.
+- alpine image is much smaller because it is a minimal Linux distribution.
+
+### Inspect Image
+bash
+docker image inspect nginx
+
+Information observed:
+- Image ID
+- Created Date
+- Architecture
+- Operating System
+- Environment Variables
+- Layers
+
+### Remove Image
+`bash
+docker rmi ubuntu
+
+## Task 2: Image Layers
+
+Command:
+
+bash
+docker image history nginx
+
+### What are Docker Layers?
+
+Docker images are made up of multiple read-only layers.
+Each instruction in a Dockerfile creates a new layer.
+
+### Why Docker Uses Layers
+
+- Faster image downloads
+- Layer caching speeds up builds
+- Saves disk space
+- Layers can be shared between images
+
+
+## Task 3: Container Lifecycle
+
+Commands Practiced:
+
+`bash
+docker create --name mycontainer nginx
+docker start mycontainer
+docker pause mycontainer
+docker unpause mycontainer
+docker stop mycontainer
+docker restart mycontainer
+docker kill mycontainer
+docker rm mycontainer
+
+### Container States
+
+- Created
+- Running
+- Paused
+- Exited
+- Removed
+
+## Task 4: Working with Running Containers
+
+Commands Used
+
+`bash
+docker run -d --name webserver -p 8080:80 nginx
+docker logs webserver
+docker logs -f webserver
+docker exec -it webserver bash
+docker exec webserver ls /
+docker inspect webserver
+
+### Learned
+
+- Ran container in detached mode.
+- Viewed container logs.
+- Viewed live logs.
+- Executed commands inside the container.
+- Inspected container details like IP address and port mappings.
+
+## Task 5: Cleanup
+
+Commands
+
+`bash
+docker stop $(docker ps -q)
+docker container prune
+docker image prune
+docker system df
+
+### Learned
+
+- Stopped all running containers.
+- Removed stopped containers.
+- Removed unused images.
+- Checked Docker disk usage.
+
+
+## Key Learnings
+
+- Images are templates used to create containers.
+- Containers are running instances of images.
+- Docker uses layered architecture for efficiency.
+- Alpine is much smaller than Ubuntu because it is minimal.
+- Understanding the container lifecycle helps manage applications effectively.
