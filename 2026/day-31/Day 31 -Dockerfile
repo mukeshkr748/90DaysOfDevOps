@@ -1,0 +1,35 @@
+# Day 31 - Dockerfile
+
+## What I Learned
+
+- Created my first Dockerfile
+- Built custom Docker images
+- Used Dockerfile instructions:
+  - FROM
+  - RUN
+  - COPY
+  - WORKDIR
+  - EXPOSE
+  - CMD
+
+- Learned CMD vs ENTRYPOINT
+- Built a static website using Nginx
+- Used .dockerignore
+- Learned Docker Build Cache
+
+## CMD vs ENTRYPOINT
+
+CMD:
+- Default command
+- Can be overridden
+
+ENTRYPOINT:
+- Main command
+- Extra arguments are appended
+
+## Why Docker Cache Matters
+
+Docker stores image layers.
+If only one layer changes, Docker rebuilds only that layer.
+Keeping frequently changing instructions near the end of the Dockerfile makes builds much faster.
+
