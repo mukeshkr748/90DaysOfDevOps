@@ -1,0 +1,162 @@
+Day 32 – Docker Volumes & Networking
+
+Objective
+
+Learn how Docker handles data persistence and container communication using Volumes and Networks.
+
+
+
+Task 1 – Data Loss Without Volume
+
+Steps Performed
+
+- Pulled MySQL image
+- Started a MySQL container
+- Created a database and inserted data
+- Stopped and removed the container
+- Started a new MySQL container
+
+Observation
+
+The database and data were lost after deleting the container.
+
+Reason
+
+Containers are ephemeral. Without a volume, all data is stored inside the container and is deleted when the container is removed.
+
+
+
+Task 2 – Named Volumes
+
+Steps Performed
+
+- Created a named volume ("mysql-data")
+- Attached the volume to a MySQL container
+- Created a database and inserted data
+- Removed the container
+- Started a new container using the same volume
+
+Verification
+
+- "docker volume ls"
+- "docker volume inspect mysql-data"
+
+Observation
+
+The database and data were still available after creating a new container.
+
+Conclusion
+
+Named Volumes provide persistent storage and are ideal for databases.
+
+
+
+Task 3 – Bind Mounts
+
+Steps Performed
+
+- Created a local folder with an "index.html" file
+- Mounted it into an Nginx container
+- Opened the webpage in a browser
+- Edited "index.html" on the host
+- Refreshed the browser
+
+Observation
+
+The webpage updated instantly without restarting the container.
+
+Difference
+
+Named Volume| Bind Mount
+Managed by Docker| Managed by User
+Best for Databases| Best for Source Code & Config Files
+Stored in Docker| Stored on Host Machine
+
+
+
+Task 4 – Docker Networking Basics
+
+Commands Used
+
+- "docker network ls"
+- "docker network inspect bridge"
+
+Observation
+
+- Containers on the default bridge network could communicate using IP Address.
+- They could not communicate using container names.
+
+Reason
+
+The default bridge network does not provide automatic DNS-based name resolution.
+
+
+
+Task 5 – Custom Bridge Network
+
+Steps Performed
+
+- Created a custom bridge network ("my-app-net")
+- Started two containers on the same network
+- Verified communication using container names
+
+Observation
+
+Containers successfully communicated using their names.
+
+Reason
+
+Docker provides built-in DNS on custom bridge networks.
+
+
+
+Task 6 – Final Project
+
+Created:
+
+- Custom Network ("my-app-net")
+- Named Volume ("mysql-data")
+- MySQL Database Container
+- App Container
+
+Verified
+
+- Data persistence using the volume
+- Container-to-container communication using container names
+
+
+
+Key Learnings
+
+- Containers are temporary.
+- Volumes keep data safe.
+- Named Volumes are best for databases.
+- Bind Mounts are useful for development.
+- Default Bridge supports IP communication.
+- Custom Bridge supports name-based communication.
+- Docker's internal DNS works on custom bridge networks.
+
+
+
+Commands Practiced
+
+docker volume create
+docker volume ls
+docker volume inspect
+docker network create
+docker network ls
+docker network inspect
+docker run
+docker exec
+docker ps
+docker stop
+docker rm
+
+Conclusion
+
+Day 32 helped me understand two important Docker concepts:
+
+1. Data Persistence using Volumes.
+2. Container Communication using Docker Networks.
+
+These concepts are essential for running real-world multi-container applications.
