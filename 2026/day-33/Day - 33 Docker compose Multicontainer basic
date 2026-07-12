@@ -1,0 +1,41 @@
+Day 33 – Docker Compose Basics
+
+🚀 What I Learned
+
+Today I started learning Docker Compose and understood how it helps manage multiple containers using a single YAML file.
+
+Topics Covered
+
+- What is Docker Compose?
+- Why Docker Compose is used
+- Difference between "docker run" and Docker Compose
+- Creating "compose.yaml"
+- Running containers with "docker compose up"
+- Port Mapping ("80:80")
+
+- Docker Compose commands
+
+  - "docker compose up"
+  - "docker compose down"
+  - "docker compose ps"
+  - "docker compose logs"
+  - "docker compose start"
+  - "docker compose stop"
+- Volume Mounts
+- Serving a custom HTML page using Nginx
+- Browser testing
+- Basic troubleshooting
+
+💻 Hands-on Practice
+
+- Created my first "compose.yaml" file.
+- Deployed an Nginx container using Docker Compose.
+- Added port mapping to access the website from a browser.
+- Mounted a local HTML folder into the container using Docker Volumes.
+- Successfully displayed my own web page through Nginx.
+
+📚 Key Learning
+
+Docker Compose makes it easy to manage containers using a single configuration file instead of running long Docker commands repeatedly.
+
+#90DaysOfDevOps #Docker #DockerCompose #DevOps #Linux #AWS #GitHub #LearningJourney
