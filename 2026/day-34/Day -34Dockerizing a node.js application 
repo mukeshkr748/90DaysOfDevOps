@@ -1,0 +1,39 @@
+# Day 34 – Dockerizing a Node.js Application
+
+## 📚 What I Learned
+
+Today I learned how to containerize a simple Node.js application using Docker.
+
+## Topics Covered
+- What is a Dockerfile?
+- Difference between Docker Image and Docker Container
+- Understanding Dockerfile instructions:
+  - FROM
+  - WORKDIR
+  - COPY
+  - EXPOSE
+  - CMD
+- Building a Docker Image
+- Running a Docker Container
+- Port Mapping
+- Testing the application using `curl`
+- Basic Docker troubleshooting
+
+## 🛠 Hands-on Practice
+
+- Created a simple Node.js web server.
+- Created a Dockerfile.
+- Built a Docker image.
+- Ran the application inside a Docker container.
+- Tested the application on port 3000.
+- Learned common Docker errors and their solutions.
+
+## Key Commands
+
+```bash
+node app.js
+docker build -t day34-node-app:v1 .
+docker images
+docker run -d -p 3000:3000 --name day34-container day34-node-app:v1
+docker ps
+curl http://localhost:3000
