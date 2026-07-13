@@ -1,0 +1,52 @@
+# Day 36 – Docker Volumes & Environment Variables
+
+## 📚 What I Learned
+
+Today I learned the basics of Docker Volumes and Environment Variables.
+
+## Topics Covered
+
+- What is a Docker Volume?
+- Why Volumes are important
+- Bind Mount vs Named Volume
+- What is a `.env` file ?
+- Why Environment Variables are used
+- Creating a Docker Volume
+- Inspecting Docker Volumes
+
+## 🛠 Hands-on Practice
+
+- Created a new Docker project
+- Created a `.env` file
+- Learned how Docker Compose uses Environment Variables
+- Created a Named Volume
+- Listed Docker Volumes
+- Inspected Docker Volume details
+- Practiced Docker Volume commands
+
+## Commands Practiced
+
+`bash
+docker volume ls
+docker volume create mydata
+docker volume inspect mydata
+docker compose up -d
+docker compose down
+```
+
+## Key Learning
+
+- Volumes help keep data safe even if containers are removed.
+- Bind Mount shares files from the host system.
+- Named Volumes are managed by Docker.
+- Environment Variables help keep configuration separate from application code.
+
+## Skills Practiced
+
+- Docker
+- Docker Compose
+- Docker Volumes
+- Environment Variables
+- Linux
+
+#90DaysOfDevOps #Docker #DockerCompose #Linux #DevOps
