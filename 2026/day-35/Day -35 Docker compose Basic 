@@ -1,0 +1,48 @@
+# Day 35 – Docker Compose Basics
+
+## 📚 What I Learned
+
+Today I learned how to use Docker Compose to manage containers easily.
+
+## Topics Covered
+
+- What is Docker Compose ?
+- What is compose.yaml ?
+- Running containers with Docker Compose
+- Port Mapping
+- Volume Mounting
+- Serving a custom HTML page using Nginx
+- Docker Compose management commands
+
+## 🛠 Hands-on Practice
+
+- Created my first compose.yaml file
+- Pulled the Nginx image
+- Started a container using Docker Compose
+- Hosted a custom HTML page
+- Used volume mounting
+- Practiced Docker Compose commands:
+  - docker compose up -d
+  - docker compose ps
+  - docker compose logs
+  - docker compose restart
+  - docker compose stop
+  - docker compose start
+  - docker compose down
+
+## Key Learning
+
+- Docker Compose helps manage multiple containers using a single YAML file.
+- Volume Mounting allows sharing files between the host and container.
+- Docker Compose makes deployment simple and repeatable.
+
+## Skills Practiced
+
+- Docker
+- Docker Compose
+- Nginx
+- Linux
+- YAML
+- Volume Mounting
+
+#90DaysOfDevOps #Docker #DockerCompose #Nginx #Linux #DevOps
