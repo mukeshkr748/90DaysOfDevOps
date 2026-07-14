@@ -1,0 +1,17 @@
+Day 38 – YAML Basics ✅
+
+Today I learned the fundamentals of YAML, the configuration language widely used in DevOps tools like Docker Compose, Kubernetes, GitHub Actions, and Ansible.
+
+Key Learnings
+
+YAML syntax and indentation
+Key-value pairs, lists, and nested objects
+Multi-line strings using | and >
+YAML validation with yamllint
+
+Why spaces matter and tabs break YAML files
+Every small concept brings me one step closer to mastering CI/CD and DevOps.
+
+Repository 90DaysOfDevops
+
+#90DaysOfDevOps #DevOps #YAML #Docker #Kubernetes #GitHubActions #TrainWithShubham #LearningInPublic
