@@ -1,0 +1,29 @@
+Day 37 – Docker Revision & Cheat Sheet
+
+📚 What I Revised
+
+- Docker Images vs Containers
+- Image Layers & Build Cache
+- Dockerfile (FROM, RUN, COPY, WORKDIR, CMD, ENTRYPOINT)
+- CMD vs ENTRYPOINT
+- Named Volumes & Bind Mounts
+- Docker Networks
+- Docker Compose
+- Environment Variables (.env)
+- Multi-stage Docker Builds
+- Docker Hub Image Push
+- Healthchecks & depends_on
+
+📝 Deliverables
+
+- ✅ docker-cheatsheet.md
+- ✅ day-37-revision.md
+- ✅ Self-assessment completed
+- ✅ Quick-fire interview questions answered
+- ✅ Weak topics revised
+
+🚀 Key Takeaway
+
+Revision is just as important as learning new topics. Building a Docker cheat sheet helped me reinforce commands and concepts that I'll use in real DevOps projects.
+
+#90DaysOfDevOps #Docker #DevOps #TrainWithShubham
