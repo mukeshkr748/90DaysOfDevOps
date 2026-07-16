@@ -1,0 +1,38 @@
+Day 40 – My First GitHub Actions Workflow 🚀
+
+What I Learned
+
+Today I created my first GitHub Actions workflow and understood how CI/CD works in practice.
+
+Tasks Completed
+
+- Created a new GitHub repository
+- Created ".github/workflows/hello.yml"
+- Triggered workflow on every push
+- Used "actions/checkout@v4"
+- Printed a Hello message
+- Printed current date & time
+- Printed branch name
+- Listed repository files
+- Printed runner operating system
+- Broke the workflow intentionally ("exit 1") to understand pipeline failures
+- Fixed the error and got my first ✅ Green Pipeline
+
+Key Concepts Learned
+
+- "on:" → When the workflow runs
+- "jobs:" → Group of tasks
+- "runs-on:" → Runner operating system
+- "steps:" → Individual tasks
+- "uses:" → Reusable GitHub Actions
+- "run:" → Execute shell commands
+
+Repository Structure
+
+.github/
+└── workflows/
+    └── hello.yml
+
+Today was the day CI/CD became real for me. Watching my first green pipeline run was an exciting milestone in my DevOps journey. 🚀
+
+#90DaysOfDevOps #GitHubActions #CI #CD #DevOps #TrainWithShubham
