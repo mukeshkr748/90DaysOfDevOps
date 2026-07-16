@@ -1,0 +1,31 @@
+🚀 Day 41 – GitHub Actions Triggers & Matrix Builds
+
+Today I learned different ways to trigger GitHub Actions workflows and how to run the same workflow across multiple environments using Matrix Builds.
+
+📚 What I Learned
+
+- ✅ Pull Request Trigger ("pull_request")
+- ✅ Scheduled Trigger ("schedule" with cron)
+- ✅ Manual Trigger ("workflow_dispatch")
+- ✅ Matrix Builds for multiple Python versions
+- ✅ Running jobs in parallel
+- ✅ Excluding specific matrix combinations
+- ✅ "fail-fast: true" vs "fail-fast: false"
+
+🛠️ Workflows Created
+
+- "pr-check.yml"
+- "schedule.yml"
+- "manual.yml"
+- "matrix.yml"
+
+Key Takeaways
+
+- Pull Request workflows help automate code checks before merging.
+- Scheduled workflows run automatically using cron expressions.
+- Manual workflows can be started from the Actions tab with custom inputs.
+- Matrix builds save time by testing the same workflow on multiple environments simultaneously.
+
+Every day I'm getting more comfortable with GitHub Actions and CI/CD concepts.
+
+#90DaysOfDevOps #DevOpsKaJosh #TrainWithShubham #GitHubActions #CICD #DevOps
