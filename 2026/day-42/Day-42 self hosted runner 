@@ -1,0 +1,13 @@
+# Day 42 – Self-Hosted GitHub Runner 🚀
+
+Today I successfully configured my first Self-Hosted GitHub Actions Runner on an AWS EC2 Ubuntu instance.
+
+✅ Registered a Self-Hosted Runner
+✅ Connected GitHub Repository with EC2
+✅ Executed workflow on my own machine
+✅ Created and verified a file using GitHub Actions
+✅ Understood how GitHub communicates with a Self-Hosted Runner
+
+This hands-on practice helped me understand how CI/CD jobs can run on our own infrastructure instead of GitHub-hosted runners.
+
+#90DaysOfDevOps #GitHubActions #SelfHostedRunner #AWS #EC2 #Linux #DevOps #CloudComputing #LearningInPublic
