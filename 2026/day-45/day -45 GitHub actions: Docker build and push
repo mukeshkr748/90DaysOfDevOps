@@ -1,0 +1,17 @@
+🚀 Day 45 – GitHub Actions: Docker Build & Push
+Today I learned how GitHub Actions can automate Docker image building and pushing.
+
+Topics Covered
+
+GitHub Actions Workflow
+Docker Build
+Docker Hub Login using Secrets
+Push Docker Image Automatically
+CI/CD Basics
+Key Learnings
+Automated Docker image build
+Secure authentication using GitHub Secrets
+Push image to Docker Hub
+Basic CI/CD pipeline understanding
+
+#90DaysOfDevOps #GitHubActions #Docker #DevOps #Learning
