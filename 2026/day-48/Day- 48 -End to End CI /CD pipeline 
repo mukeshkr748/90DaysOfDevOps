@@ -1,0 +1,13 @@
+🚀 Day 48 – End-to-End CI/CD Pipeline
+
+Today I understood how a complete CI/CD pipeline works.
+Pipeline Flow
+Code Commit
+Build
+Test
+Docker Image Build
+Deployment
+Learning
+Understanding the complete software delivery pipeline.
+
+#CI #CD #GitHubActions #Docker #DevOps
