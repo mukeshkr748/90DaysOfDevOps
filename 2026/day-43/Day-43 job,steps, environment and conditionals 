@@ -1,0 +1,72 @@
+# Day 43 - Jobs, Steps, Environment Variables & Conditionals 🚀
+
+Today I learned how to control the flow of GitHub Actions workflows.
+
+## Topics Covered
+
+✅ Multi-job workflows  
+✅ Job dependencies using `needs`  
+✅ Environment variables  
+✅ Passing data between jobs using outputs  
+✅ Conditional execution of steps and jobs  
+
+## Multi-Job Workflow
+
+Created a workflow with three jobs:
+
+Build → Test → Deploy
+
+Using `needs`:
+
+- Test runs only after Build succeeds
+- Deploy runs only after Test succeeds
+
+Example flow:
+
+Build
+  |
+  ↓
+Test
+  |
+  ↓
+Deploy
+
+## Key Concepts Learned
+
+### jobs:
+Used to define different tasks in a workflow.
+
+### steps:
+Small actions performed inside a job.
+
+### needs:
+Creates dependency between jobs.
+
+Example:
+
+```yaml
+test:
+  needs: build
+
+Environment Variables
+
+Learned how variables can be defined at:
+Workflow level
+Job level
+Step level
+Job Outputs
+Learned how one job can share data with another job using:
+
+outputs:
+
+needs.job.outputs.value
+
+Conditionals
+
+Learned to run steps based on conditions:
+Only on main branch
+Only when previous step fails
+Continue workflow after errors
+Learning Progress
+Day 43 completed of #90DaysOfDevOps 🚀
+#DevOps #GitHubActions #CICD #Cloud #TrainWithShubham
