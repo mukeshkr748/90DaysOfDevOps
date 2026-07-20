@@ -1,0 +1,16 @@
+# Day 49 – Docker Build & Push with GitHub Actions
+
+Today I practiced creating a CI/CD workflow using GitHub Actions.
+
+## What I learned
+- Docker Hub Personal Access Token
+- GitHub Secrets
+- Docker Login in GitHub Actions
+- Docker Build workflow
+- Debugging workflow errors
+
+Although the workflow was not fully successful, I learned how to troubleshoot real CI/CD issues and understood how GitHub Actions integrates with Docker.
+
+Learning by doing. 🚀
+
+#90DaysOfDevOps #GitHubActions #Docker #DevOps #Learning
