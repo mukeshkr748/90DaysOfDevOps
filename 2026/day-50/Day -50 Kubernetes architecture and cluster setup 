@@ -1,0 +1,18 @@
+Day 50 – Kubernetes Architecture and Cluster Setup
+
+✅ Learned Kubernetes architecture and why it is used.
+
+What I did
+
+- Installed "kubectl"
+- Set up a local Kubernetes cluster
+- Explored Kubernetes Control Plane and Worker Node components
+- Verified the cluster using "kubectl get nodes"
+- Explored "kube-system" pods
+- Learned the role of API Server, etcd, Scheduler, Controller Manager, kubelet, kube-proxy, and Container Runtime
+
+Key Learning
+
+Today I started my Kubernetes journey and understood how Kubernetes manages containerized applications at scale. I also learned how the control plane and worker nodes work together to keep applications running reliably.
+
+#90DaysOfDevOps #Kubernetes #DevOps #Cloud #Docker #Learning
