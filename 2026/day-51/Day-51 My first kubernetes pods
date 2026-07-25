@@ -32,3 +32,10 @@ kubectl exec -it pod-name -- bash  # Enter container shell
 kubectl logs pod-name              # View pod logs
 
 kubectl delete pods --all          # Clean up everything
+
+ Key Takeaway
+
+Standalone Pods are ephemeral - when deleted, they're gone forever! That's why we need Deployments (next lesson) for production.
+
+
+#90DaysOfDevOps #DevOpsKaJosh #TrainWithShubham #Kubernetes #LearningInPublic
