@@ -1,0 +1,34 @@
+# Day 51: My First Kubernetes Pods 🚀
+
+## What I Learned Today
+
+Today was my first hands-on experience with Kubernetes Pods! Here's what I accomplished:
+
+### 📦 Created 3 Pods from Scratch
+
+1. **Nginx Pod** - A web server running on port 80
+
+2. **BusyBox Pod** - A utility pod with custom commands
+
+3. **Custom Pod** - With multiple labels for organization
+
+
+### 🔑 Key Concepts I Learned
+
+- **Manifest Structure**: apiVersion, kind, metadata, spec
+- **Declarative vs Imperative**: YAML files vs kubectl run commands
+- **Labels**: How to organize and filter resources
+- **Pod Lifecycle**: Running, Pending, and how standalone pods behave when deleted
+
+### 🛠️ Useful Commands I Used
+
+``bash
+kubectl apply -f pod.yaml          # Create pod from manifest
+
+kubectl get pods --show-labels     # List pods with labels
+
+kubectl exec -it pod-name -- bash  # Enter container shell
+
+kubectl logs pod-name              # View pod logs
+
+kubectl delete pods --all          # Clean up everything
