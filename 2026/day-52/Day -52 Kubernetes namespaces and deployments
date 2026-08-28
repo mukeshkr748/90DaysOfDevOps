@@ -1,0 +1,16 @@
+Day 52 – Kubernetes Namespaces & Deployments 🚀
+
+Today I practiced:
+
+- Kubernetes Namespaces
+- Created "dev" and "staging" namespaces
+- Created a Deployment with 3 replicas
+- Practiced Pod self-healing
+- Scaled Deployment 3 → 5 → 2
+- Performed Rolling Update
+- Practiced Rollback
+- Learned about ReplicaSets
+
+Day 52 completed successfully! ✅
+
+#90DaysOfDevOps #DevOpsKaJosh #Kubernetes #DevOps #TrainWithShubham
