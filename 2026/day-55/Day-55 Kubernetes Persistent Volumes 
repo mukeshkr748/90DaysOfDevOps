@@ -1,0 +1,15 @@
+Day 55 – Kubernetes Persistent Volumes 🚀
+
+Today I practiced Kubernetes storage:
+
+✅ Demonstrated data loss with "emptyDir"
+✅ Created PersistentVolume (PV)
+✅ Created PersistentVolumeClaim (PVC)
+✅ Tested data persistence after Pod recreation
+✅ Learned StorageClasses
+✅ Practiced Dynamic Provisioning
+✅ Learned Retain vs Delete reclaim policies
+
+Successfully completed Day 55! 🎯
+
+#90DaysOfDevOps #Kubernetes #DevOps #DevOpsKaJosh #TrainWithShubham
