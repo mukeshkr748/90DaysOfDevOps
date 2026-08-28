@@ -1,0 +1,17 @@
+Day 53 – Kubernetes Services 🚀
+
+Today I practiced Kubernetes Services.
+
+✅ ClusterIP Service
+✅ NodePort Service
+✅ LoadBalancer Service
+✅ Pod-to-Service communication
+✅ Kubernetes DNS
+✅ Endpoints
+✅ Tested Nginx application through Services
+
+Learned how Services provide stable access to Kubernetes Pods.
+
+Day 53 completed successfully! ✅
+
+#90DaysOfDevOps #Kubernetes #DevOps #DevOpsKaJosh #TrainWithShubham
