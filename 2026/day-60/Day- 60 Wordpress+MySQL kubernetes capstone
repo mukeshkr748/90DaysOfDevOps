@@ -1,0 +1,36 @@
+Day 60 – WordPress + MySQL Kubernetes Capstone 🚀
+
+Today I practiced a basic WordPress + MySQL setup using Kubernetes.
+
+What I learned:
+
+- Created a MySQL Deployment
+- Created a MySQL Service
+- Created a WordPress Deployment
+- Connected WordPress with MySQL Service
+- Created a WordPress NodePort Service
+- Verified Pods and Services
+
+Kubernetes flow:
+
+WordPress Pod
+     ↓
+WordPress Service
+     ↓
+MySQL Service
+     ↓
+MySQL Pod
+
+Commands practiced:
+
+kubectl apply -f day-60-mysql.yaml
+kubectl apply -f day-60-mysql-service.yaml
+kubectl apply -f day-60-wordpress.yaml
+kubectl apply -f day-60-wordpress-service.yaml
+
+kubectl get pods -n dev
+kubectl get svc -n dev
+
+✅ Completed Day 60
+
+🎯 Focus: Basic Kubernetes application deployment and service communication
