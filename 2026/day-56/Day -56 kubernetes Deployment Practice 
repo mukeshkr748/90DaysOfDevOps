@@ -1,0 +1,22 @@
+Day 56 – Kubernetes Deployment Practice 🚀
+
+Today I practiced basic Kubernetes Deployment concepts.
+
+What I learned:
+
+- Namespace
+- Deployment YAML
+- Creating a Deployment
+- Checking Pods
+- Scaling Deployment
+- Increasing replicas from 2 to 3
+
+Commands practiced:
+
+kubectl apply -f deployment.yaml
+kubectl get deployment -n dev
+kubectl get pods -n dev
+kubectl scale deployment nginx-deployment --replicas=3 -n dev
+
+✅ Completed Day 56
+🎯 Focus: Kubernetes basics and practical learning
