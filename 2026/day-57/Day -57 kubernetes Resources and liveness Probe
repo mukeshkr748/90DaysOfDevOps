@@ -1,0 +1,26 @@
+Day 57 – Kubernetes Resources & Liveness Probe 🚀
+
+Today I learned the basic concepts of Kubernetes resource management and health checking.
+
+What I learned:
+
+- CPU & Memory Requests
+- CPU & Memory Limits
+- Liveness Probe
+- Basic HTTP health check
+- How to verify resources and probes
+
+Practiced:
+
+requests:
+  memory: "64Mi"
+  cpu: "100m"
+
+limits:
+  memory: "128Mi"
+  cpu: "200m"
+
+Also configured a basic Liveness Probe for Nginx.
+
+✅ Completed Day 57
+🎯 Focus: Basic Kubernetes resource management and health checks
