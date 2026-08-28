@@ -1,0 +1,21 @@
+Day 58 – Kubernetes Metrics Server 🚀
+
+Today I practiced the basics of Kubernetes Metrics Server.
+
+What I learned:
+
+- What Metrics Server does
+- CPU & Memory usage monitoring
+- Using "kubectl top"
+- Basic Metrics Server setup
+- Basic troubleshooting of Metrics API
+
+Command practiced:
+
+kubectl top pods -n dev
+
+I also fixed a basic Metrics Server configuration issue and verified the metrics setup.
+
+✅ Completed Day 58
+
+🎯 Focus: Basic Kubernetes monitoring
