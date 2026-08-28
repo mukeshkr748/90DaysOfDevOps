@@ -1,0 +1,25 @@
+Day 59 – Helm Basics 🚀
+
+Today I started learning Helm for Kubernetes.
+
+What I learned:
+
+- What Helm is
+- Helm Charts
+- Helm Repositories
+- Helm Releases
+- Basic Helm commands
+- Installing an Nginx application using a Helm Chart
+
+Commands practiced:
+
+helm version
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm search repo bitnami/nginx
+helm show chart bitnami/nginx
+helm install my-nginx bitnami/nginx -n dev
+helm list -n dev
+
+✅ Completed Day 59
+
+🎯 Focus: Basic Helm and Kubernetes application deployment
