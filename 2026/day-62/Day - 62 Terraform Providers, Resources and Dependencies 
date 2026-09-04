@@ -1,0 +1,44 @@
+Day 62 – Terraform Providers, Resources & Dependencies 🚀
+
+Today I practiced the basics of Terraform with AWS.
+
+What I Learned
+
+- AWS Provider
+- Provider version constraints
+- Terraform Init
+- Terraform Validate
+- Terraform Plan & Apply
+- Terraform State
+- VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+- Security Group
+- Implicit Dependencies
+- Terraform Dependency Graph
+
+AWS Resources Practiced
+
+- VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+- Route Table Association
+- Security Group
+
+Key Learning
+
+Terraform can understand dependencies automatically when one resource references another resource.
+
+Example:
+
+vpc_id = aws_vpc.main.id
+
+This creates a relationship between the resources.
+
+I also practiced "terraform state list" and "terraform graph".
+
+Day 62 completed ✅
+
+#Terraform #AWS #DevOps #InfrastructureAsCode #LearningInPublic
