@@ -1,0 +1,25 @@
+Day 61 – Terraform & AWS Infrastructure 🚀
+
+Today I learned the basics of Terraform and Infrastructure as Code (IaC).
+
+What I practiced:
+
+- Terraform installation
+- AWS CLI configuration
+- "terraform init"
+- "terraform validate"
+- "terraform plan"
+- "terraform apply"
+- Created an S3 bucket
+- Created an EC2 instance
+- Terraform State
+- Modified EC2 tag
+- "terraform destroy"
+
+Key Learning
+
+Terraform helps us manage AWS infrastructure using code instead of creating resources manually.
+
+Day 61 completed successfully! ✅
+
+#Terraform #AWS #DevOps #IaC #90DaysOfDevOps
