@@ -1,0 +1,44 @@
+Day 64 – Terraform State Management
+
+Today I learned the basics of Terraform State Management.
+
+Topics Covered
+
+- Terraform State
+- "terraform state list"
+- "terraform state show"
+- Terraform State Serial
+- S3 Remote Backend
+- S3 Versioning
+- Local to Remote State Migration
+- Terraform Plan Verification
+
+Commands Practiced
+
+terraform state list
+terraform state show aws_vpc.main
+terraform show
+terraform init -migrate-state
+terraform plan
+
+Remote Backend
+
+Configured an S3 backend to store Terraform state remotely.
+
+terraform {
+  backend "s3" {
+    bucket       = "terraweek-state-mukesh-2026"
+    key          = "dev/terraform.tfstate"
+    region       = "ap-south-1"
+    encrypt      = true
+    use_lockfile = true
+  }
+}
+
+Key Learning
+
+Terraform State helps Terraform track the infrastructure it manages.
+
+Remote state with S3 provides centralized state storage and S3 versioning helps keep previous versions of the state.
+
+Day 64 Completed ✅
