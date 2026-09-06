@@ -1,0 +1,38 @@
+Day 66 – EKS with Terraform Modules 🚀
+
+Today I learned the basics of Amazon EKS (Elastic Kubernetes Service) and how Terraform Modules can be used to configure EKS infrastructure.
+
+What I Learned
+
+- What is Amazon EKS
+- Terraform Registry Modules
+- VPC Module
+- EKS Module
+- Terraform Variables & Outputs
+- EKS cluster configuration
+- Basic Terraform workflow
+
+Terraform Commands Practiced
+
+terraform init
+terraform validate
+terraform plan
+
+Project Structure
+
+terraform-eks/
+├── providers.tf
+├── vpc.tf
+├── eks.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+└── k8s/
+
+Key Learning
+
+Terraform Modules help us manage complex infrastructure using reusable configurations.
+
+I focused on understanding the basic EKS + Terraform architecture without deploying the actual EKS cluster.
+
+#90DaysOfDevOps #DevOps #Terraform #AWS #Kubernetes #EKS
