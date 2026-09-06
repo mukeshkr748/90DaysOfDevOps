@@ -1,0 +1,24 @@
+Day 63 – Terraform Variables, Outputs & Data Sources 🚀
+
+Today I learned how to make Terraform configurations more dynamic and reusable.
+
+What I Learned
+
+- Terraform Variables
+- "terraform.tfvars"
+- Environment-specific variables
+- Outputs
+- Data Sources
+- Availability Zones
+- Locals
+- Common Tags
+- Basic Terraform Functions
+- Conditional Expressions
+
+Key Learning
+
+Instead of hardcoding values like AMI ID, CIDR and instance type, Terraform variables and data sources can make the configuration more reusable.
+
+Day 63 completed ✅
+
+#Terraform #AWS #DevOps #90DaysOfDevOps #InfrastructureAsCode
