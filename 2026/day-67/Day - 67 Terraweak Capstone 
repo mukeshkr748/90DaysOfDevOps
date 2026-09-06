@@ -1,0 +1,48 @@
+Day 67 – TerraWeek Capstone 🚀
+
+Today I completed the basic Terraform TerraWeek Capstone.
+
+What I Learned
+
+- Terraform Workspaces
+- "dev", "staging", "prod" workspaces
+- Custom Terraform Modules
+- Basic VPC Module
+- Basic Security Group Module
+- Basic EC2 Module
+- Variables & Locals
+- Workspace-aware configuration
+- ".gitignore"
+
+Project Structure
+
+terraweek-capstone/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── providers.tf
+├── locals.tf
+├── dev.tfvars
+├── staging.tfvars
+├── prod.tfvars
+└── modules/
+    ├── vpc/
+    ├── security-group/
+    └── ec2-instance/
+
+Commands Practiced
+
+terraform init
+terraform validate
+terraform workspace show
+terraform workspace new
+terraform workspace select
+terraform workspace list
+
+Key Learning
+
+Terraform Workspaces allow the same Terraform code to be used for different environments.
+
+I kept this project at a basic learning level and did not deploy the infrastructure to AWS.
+
+#90DaysOfDevOps #TerraWeek #Terraform #DevOps #AWS
