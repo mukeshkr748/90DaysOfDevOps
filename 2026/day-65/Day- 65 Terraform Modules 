@@ -1,0 +1,45 @@
+Day 65 – Terraform Modules
+
+Today I learned the basics of Terraform Modules.
+
+Topics Covered
+
+- What are Terraform Modules?
+- Root Module vs Child Module
+- Custom EC2 Module
+- Custom Security Group Module
+- Module Variables
+- Module Outputs
+- Basic Dynamic Blocks
+- Calling Child Modules from Root Module
+
+Module Structure
+
+terraform-modules/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── providers.tf
+└── modules/
+    ├── ec2-instance/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    └── security-group/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
+
+Key Learning
+
+Terraform Modules help us create reusable infrastructure code instead of repeating the same configuration.
+
+I also learned how variables provide inputs to modules and outputs return useful information from modules.
+
+Commands Practiced
+
+terraform init
+terraform validate
+terraform plan
+
+Day 65 Completed ✅
