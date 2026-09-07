@@ -1,0 +1,35 @@
+Day 69 – Ansible Playbooks and Modules
+
+Today I learned the basics of Ansible Playbooks and Modules.
+
+What I Learned
+
+- What is an Ansible Playbook
+- Basic Playbook structure
+- Play, Task and Module
+- "command" module
+- YAML-based automation
+- Syntax checking of a Playbook
+
+My First Playbook
+
+---
+- name: My First Ansible Playbook
+  hosts: all
+  tasks:
+    - name: Check server uptime
+      command: uptime
+
+Commands Practiced
+
+ansible-playbook first-playbook.yml --syntax-check
+
+ansible-playbook first-playbook.yml
+
+Key Takeaway
+
+I learned how Ansible Playbooks are structured and how modules are used to perform tasks.
+
+Keeping my learning beginner-friendly and practical before moving to advanced Ansible concepts.
+
+#90DaysOfDevOps #Ansible #DevOps #DevOpsKaJosh #TrainWithShubham
