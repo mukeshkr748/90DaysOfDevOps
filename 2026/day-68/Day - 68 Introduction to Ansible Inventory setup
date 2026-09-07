@@ -1,0 +1,66 @@
+Day 68 – Introduction to Ansible and Inventory Setup
+
+📌 What I Learned
+
+Today I started learning Ansible, a configuration management and automation tool used to manage servers remotely.
+
+🔹 What is Ansible?
+
+Ansible is an automation tool that can be used to:
+
+- Manage servers
+- Install packages
+- Copy files
+- Manage services
+- Execute commands remotely
+
+Ansible is agentless, which means we don't need to install an Ansible agent on managed servers. It mainly uses SSH to connect to Linux servers.
+
+🔹 Ansible Architecture
+
+Control Node
+     |
+    SSH
+     |
+Managed Nodes
+
+- Control Node – Machine where Ansible is installed.
+- Managed Nodes – Servers managed by Ansible.
+- Inventory – List of servers Ansible manages.
+- Modules – Small units of work such as command, copy, yum, etc.
+- Playbooks – YAML files used to define repeatable automation tasks.
+
+🔹 What I Practiced
+
+- Installed Ansible
+- Verified Ansible installation using "ansible --version"
+- Created an Ansible practice directory
+- Created an "inventory.ini" file
+- Checked AWS CLI and AWS region
+- Started setting up EC2 infrastructure for Ansible practice
+- Learned the basic concept of agentless server management
+
+🔹 Important Commands
+
+ansible --version
+
+mkdir ansible-practice
+cd ansible-practice
+
+touch inventory.ini
+
+aws configure get region
+
+aws sts get-caller-identity
+
+🔹 Key Takeaway
+
+Ansible allows us to manage remote Linux servers from a central control node without installing an agent on every server.
+
+This was my first step into configuration management and server automation.
+
+🚀 Next Step
+
+Continue with basic Ansible inventory and ad-hoc command practice.
+
+#90DaysOfDevOps #Ansible #DevOps #Linux #Cloud #DevOpsKaJosh #TrainWithShubham
