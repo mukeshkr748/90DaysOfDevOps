@@ -1,0 +1,21 @@
+Day 71 – Ansible Basics
+
+Today I practiced some basic Ansible concepts:
+
+- Jinja2 Templates
+- Ansible Roles
+- Basic Role Structure
+- Simple Role Task
+
+What I Learned
+
+- How Jinja2 templates use variables.
+- How to create a basic Ansible Role.
+- Basic structure of an Ansible Role.
+- How to run a role using a Playbook.
+
+Practice
+
+Created a simple "webserver" role and tested it using a local inventory.
+
+Focus: Beginner-level Ansible practice.
