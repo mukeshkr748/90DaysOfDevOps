@@ -1,0 +1,78 @@
+Day 70 – Variables, Facts, Conditionals and Loops
+
+Today I learned how to make Ansible Playbooks more flexible using basic Variables, Facts, Conditionals and Loops.
+
+What I Learned
+
+1. Variables
+
+Variables store reusable values.
+
+Example:
+
+vars:
+  app_name: my-app
+  app_port: 8080
+
+Using variables:
+
+{{ app_name }}
+{{ app_port }}
+
+2. Ansible Facts
+
+Ansible automatically collects system information from managed hosts.
+
+I practiced getting:
+
+- Hostname
+- Operating System
+- RAM
+- IP Address
+
+Example:
+
+{{ ansible_hostname }}
+{{ ansible_distribution }}
+{{ ansible_memtotal_mb }}
+{{ ansible_default_ipv4.address }}
+
+3. Conditionals
+
+The "when" condition allows a task to run only when a condition is true.
+
+Example:
+
+- name: Check Ubuntu
+  debug:
+    msg: "This is an Ubuntu server"
+  when: ansible_distribution == "Ubuntu"
+
+4. Loops
+
+Loops allow one task to work with multiple values.
+
+Example:
+
+loop:
+  - /tmp/app
+  - /tmp/logs
+  - /tmp/config
+
+I used a loop to create multiple directories.
+
+Files Created
+
+- "variables-demo.yml"
+- "facts-demo.yml"
+- "conditional-demo.yml"
+- "loops-demo.yml"
+- "day-70-variables-loops.md"
+
+Key Takeaway
+
+Variables make playbooks reusable, Facts provide system information, Conditionals control when tasks run, and Loops help perform the same task for multiple items.
+
+I am continuing my Ansible learning step-by-step with a focus on strong fundamentals.
+
+#90DaysOfDevOps #Ansible #DevOps #DevOpsKaJosh #TrainWithShubham
