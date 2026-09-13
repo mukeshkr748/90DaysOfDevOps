@@ -1,0 +1,17 @@
+Day 73 – Introduction to Observability and Prometheus
+
+Learned the 3 pillars: Metrics, Logs & Traces
+
+Set up Prometheus using Docker Compose
+
+Configured prometheus.yml
+
+Checked Prometheus health
+
+Practiced basic PromQL queries
+
+Learned Counter vs Gauge
+
+Collected Prometheus's own metrics
+
+Documented the complete practical in day-73-observability-prometheus.md
