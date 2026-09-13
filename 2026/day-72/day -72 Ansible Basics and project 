@@ -1,0 +1,19 @@
+Day 72 – Ansible Basic Project
+
+Today I completed a basic Ansible project.
+
+What I Practiced
+
+- Ansible project structure
+- Custom Docker role
+- Custom Nginx role
+- Master "site.yml" playbook
+- Running multiple roles from one playbook
+
+Result
+
+Successfully executed Docker and Nginx roles using a master Ansible playbook.
+
+This project helped me understand how different Ansible roles can be connected and managed from a single playbook.
+
+Focus: Beginner-level Ansible practic
