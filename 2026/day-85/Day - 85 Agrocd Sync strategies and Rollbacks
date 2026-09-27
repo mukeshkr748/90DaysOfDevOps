@@ -1,0 +1,23 @@
+Day 85 – ArgoCD Sync Strategies and Rollbacks
+
+📌 Topic
+
+ArgoCD Sync Strategies, Rollbacks and Application Management
+
+📝 What I Learned
+
+- Manual synchronization
+- Automatic synchronization
+- Application health and sync status
+- Basic rollback concept
+- Managing Kubernetes applications through ArgoCD
+
+🔄 Basic Workflow
+
+Git Repository → ArgoCD → Kubernetes
+
+🎯 Key Takeaway
+
+ArgoCD continuously monitors the desired state stored in Git and helps keep the Kubernetes application synchronized with it.
+
+#90DaysOfDevOps #ArgoCD #GitOps #Kubernetes #DevOps
