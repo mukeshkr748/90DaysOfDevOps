@@ -1,0 +1,15 @@
+Day 83 – EKS Project
+
+📌 What I Learned
+
+Basic EKS project workflow
+Deploying an application on Kubernetes
+Using Kubernetes resources with EKS
+Checking application status
+Understanding a basic production-style deployment workflow
+
+🎯 Goal
+To understand the basic process of deploying an application using Amazon EKS.
+Status: ✅ Completed
+
+#DevOps #AWS #EKS #Kubernetes #Cloud #90DaysOfDevOps
