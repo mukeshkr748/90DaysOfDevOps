@@ -1,0 +1,30 @@
+Day 84 – Introduction to GitOps and ArgoCD
+
+📌 Topic
+
+Introduction to GitOps and ArgoCD
+
+📝 What I Learned
+
+- What is GitOps
+- Git as the source of truth
+- Introduction to ArgoCD
+- How ArgoCD works with Kubernetes
+- Basic GitOps workflow
+
+🔄 Basic GitOps Flow
+
+GitHub → ArgoCD → Kubernetes → Application
+
+🛠️ Tools Used
+
+- Git
+- GitHub
+- Kubernetes
+- ArgoCD
+
+🎯 Key Takeaway
+
+GitOps helps manage Kubernetes deployments using Git, and ArgoCD automates application deployment and synchronization.
+
+#90DaysOfDevOps #GitOps #ArgoCD #Kubernetes
