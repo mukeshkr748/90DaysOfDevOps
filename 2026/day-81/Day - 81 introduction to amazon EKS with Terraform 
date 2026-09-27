@@ -1,0 +1,15 @@
+Day 81 – Introduction to Amazon EKS with Terraform
+
+📌 What I Learned
+
+What is Amazon EKS?
+Basic EKS architecture
+EKS and Kubernetes relationship
+Introduction to using Terraform with EKS
+Basic understanding of AWS-managed Kubernetes
+
+🎯 Goal
+To understand how Amazon EKS is used to run Kubernetes workloads on AWS.
+Status: ✅ Completed
+
+#DevOps #AWS #EKS #Kubernetes #Terraform
