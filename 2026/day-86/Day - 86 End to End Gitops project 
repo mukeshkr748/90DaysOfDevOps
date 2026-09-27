@@ -1,0 +1,31 @@
+Day 86 – End-to-End GitOps Project
+
+📌 Topic
+
+GitOps Project – End-to-End CI/CD Pipeline
+
+📝 What I Learned
+
+- Git-based deployment workflow
+- GitHub as the source repository
+- ArgoCD for Kubernetes deployment
+- Application synchronization
+- Basic end-to-end GitOps workflow
+
+🔄 End-to-End Flow
+
+Developer → GitHub → ArgoCD → Kubernetes → Application
+
+🛠️ Tools Used
+
+- GitHub
+- Git
+- Docker
+- Kubernetes
+- ArgoCD
+
+🎯 Key Takeaway
+
+I practiced a basic end-to-end GitOps workflow where changes in the Git repository can be deployed and synchronized with a Kubernetes application using ArgoCD.
+
+#90DaysOfDevOps #GitOps #ArgoCD #Kubernetes #CI_CD #DevOps
