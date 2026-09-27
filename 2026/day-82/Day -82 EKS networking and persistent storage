@@ -1,0 +1,15 @@
+Day 82 – EKS Networking & Persistent Storage
+📌 What I Learned
+
+Basic EKS networking
+
+Introduction to Gateway API
+Basic Kubernetes networking concepts
+Persistent Storage in Kubernetes
+How storage can be used with applications running on EKS
+
+🎯 Goal
+To understand the basic networking and storage concepts used with Amazon EKS.
+Status: ✅ Completed
+
+#DevOps #AWS #EKS #Kubernetes #Networking #Storage
